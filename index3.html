@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BellaNotte - Italian Restaurant</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fffaf0;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #008C45, #F4F5F0, #CD212A);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 4em;
+      margin: 0;
+      animation: bounce 2s infinite;
+    }
+    header p {
+      font-size: 1.5em;
+      font-style: italic;
+      margin-top: 10px;
+    }
+    nav {
+      background: #CD212A;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      display: inline-block;
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #008C45;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #CD212A;
+      border-bottom: 3px solid #008C45;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+    .menu-item {
+      background: #f9f9f9;
+      padding: 20px;
+      border-left: 10px solid #CD212A;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+    .menu-item:hover {
+      transform: scale(1.03);
+    }
+    .menu-item h3 {
+      margin-top: 0;
+      color: #008C45;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      line-height: 1.7em;
+    }
+    ul li::before {
+      content: "🍝 ";
+      margin-right: 5px;
+    }
+    footer {
+      background: #008C45;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🇮🇹 BellaNotte 🇮🇹</h1>
+    <p>Classic Italy on the Table of the Future</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#ai">AI Features</a>
+    <a href="#experience">Experience</a>
+    <a href="#why">Why Visit</a>
+  </nav>
+
+  <section id="about">
+    <h2>About BellaNotte 🇮🇹</h2>
+    <p>BellaNotte is a traditional Italian restaurant serving authentic dishes. The difference is that we use smart tables and artificial intelligence systems so customers can personalize their experience, order comfortably, and enjoy faster and more interactive service. 🇮🇹✨</p>
+  </section>
+
+  <section id="menu">
+    <h2>Menu Highlights 🍕</h2>
+
+    <div class="menu-item">
+      <h3>🍕 Pizza Margherita</h3>
+      <p>A classic pizza with tomato sauce, fresh mozzarella, and basil. At BellaNotte, AI controls the oven temperature and exact baking time so the crust is perfectly crispy and the cheese melts just right.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>🍝 Spaghetti alla Bolognese</h3>
+      <p>Italian pasta with homemade Bolognese sauce. AI calculates the exact cooking time for the pasta and adjusts the sauce to ensure perfect texture and taste every time.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>🍰 Tiramisù</h3>
+      <p>Traditional Italian dessert with layers of mascarpone cream and coffee-soaked sponge cake. Thanks to AI, portions are served perfectly even and fresh, keeping the ideal temperature until it reaches your table.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>☕ Caffè Italiano</h3>
+      <p>An intense, aromatic espresso. At BellaNotte, AI programs the coffee machine to achieve the perfect pressure and temperature, guaranteeing the same authentic flavor every time.</p>
+    </div>
+
+    <div class="menu-item">
+      <h3>🍋 Limoncello</h3>
+      <p>A typical Italian liqueur made from fresh lemons. At BellaNotte, AI keeps the bottle at the perfect temperature and serves the exact amount for a refreshing taste every time.</p>
+    </div>
+  </section>
+
+  <section id="ai">
+    <h2>AI Features 🤖</h2>
+    <ul>
+      <li>Smart tables with touch screens for choosing side dishes, ordering, or calling the waiter.</li>
+      <li>Hidden compartments in the table open automatically to offer salt, pepper, olive oil, or Parmesan cheese when selected on the screen.</li>
+      <li>Personalized recommendations based on your preferences or allergies.</li>
+      <li>Italian music that changes according to the restaurant atmosphere.</li>
+      <li>Fast and secure payments directly from the table.</li>
+    </ul>
+  </section>
+
+  <section id="experience">
+    <h2>Customer Experience 🎶</h2>
+    <ul>
+      <li>Customers see their name on the table screen when they arrive with a reservation.</li>
+      <li>Use the touchscreen to browse the menu and choose side dishes.</li>
+      <li>Receive condiments directly from the table without waiting.</li>
+      <li>Call the waiter or request the bill easily from the screen.</li>
+      <li>Enjoy Italian music and beautiful landscapes displayed on the table screens while waiting for food.</li>
+      <li>Pay quickly without waiting for a waiter to bring the bill.</li>
+    </ul>
+  </section>
+
+  <section id="why">
+    <h2>Why Visit BellaNotte? 🏛️</h2>
+    <p>BellaNotte combines authentic Italian food with modern technology. Smart tables make the experience fun and comfortable. Everything is faster and more personalized, making you feel like you're dining in Italy without leaving your city. 🇮🇹</p>
+  </section>
+
+  <footer>
+    <p>© 2025 BellaNotte. All rights reserved. 🇮🇹</p>
+  </footer>
+
+</body>
+</html>
